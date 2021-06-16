@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+
+class Solution43 {
+  - String webSiteName;
+  - String authorsName;
+  - boolean isJsFolder;
+  - boolean isCsFolder;
+
+  + void userReadInputs(Scanner scanner);
+}
+
+Class CreateFolders{
++ void createfolder(String pathFolder)
+}
+Class CreateIndexHtml{
++ void generateHtmalFile(String webSiteName, String authorsName, String webpath)
+}
+
+
+
+Solution43 *-- CreateFolders
+Solution43 *--- CreateIndexHtml
+@enduml

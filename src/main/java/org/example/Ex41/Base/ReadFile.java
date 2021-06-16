@@ -16,7 +16,6 @@ public class ReadFile {
                 String name = scanner.next()+scanner.next();
                 dataList.add(name);
 
-                //System.out.printf("%s %n",name);
             }
 
         }catch (IOException | NoSuchElementException | IllegalStateException e){

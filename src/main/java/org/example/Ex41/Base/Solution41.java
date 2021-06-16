@@ -3,12 +3,9 @@ package org.example.Ex41.Base;
  *  UCF COP3330 Summer 2021 Assignment 3 Solution
  *  Copyright 2021 Asad merouani
  */
-import java.io.IOException;
-import java.nio.file.Paths;
+
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.NoSuchElementException;
-import java.util.Scanner;
+
 
 public class Solution41 {
     private static ArrayList<String> dataList = new ArrayList<String>();
