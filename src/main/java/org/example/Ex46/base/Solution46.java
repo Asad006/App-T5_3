@@ -7,7 +7,7 @@ public class Solution46 {
     private static ArrayList<ArrayList<String>> wordsCount = new ArrayList<ArrayList<String>>();
 
     public static void main(String[] args) {
-        String fileName= "exercise46_input.txt";
+        String fileName = "exercise46_input.txt";
         ProcessFile readFile = new ProcessFile();
         wordsInFile = readFile.read(fileName);
 

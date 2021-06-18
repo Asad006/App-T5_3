@@ -3,6 +3,7 @@ package org.example.Ex46.base;
 import java.util.ArrayList;
 
 public class DisplayResults {
+
     public void print(ArrayList<ArrayList<String>> wordsCount) {
         ArrayList<String> arrayTemp = new ArrayList<String>();
         for (int i = 0; i < wordsCount.size(); i++) {

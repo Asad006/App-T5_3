@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Solution44 {
+    - {static} ArrayList<String> gsonArray
+    - {static} final Scanner scanner
+    - {static} String productName
+}
+class DataProcess {
+    - {static} ArrayList<String> jasonInArrayList
+    - {static} Product product
+    - {static} Boolean isExist
+    + readDataFromJsonFile()
+    + displayProductMessage()
+    + productNameCheck(String productName)
+    + checkProductNameExist(String productName)
+    + deserializationProduct(String jsonArrayElement)
+
+     }
+
+class Product {
+      - String name;
+      - Double price;
+      - int quantity;
+
+      + getName()
+      + getPrice()
+      + getQuantity()
+     }
+Solution44 *-- DataProcess
+DataProcess *--- Product
+@enduml

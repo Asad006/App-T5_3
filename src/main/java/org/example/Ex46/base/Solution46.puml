@@ -2,8 +2,8 @@
 'https://plantuml.com/sequence-diagram
 
 class Solution46 {
-    private static ArrayList<String> wordsInFile = new ArrayList<String>();
-    private static ArrayList<ArrayList<String>> wordsCount = new ArrayList<ArrayList<String>>();
+    - {static} ArrayList<String> wordsInFile = new ArrayList<String>();
+    - {static} ArrayList<ArrayList<String>> wordsCount = new ArrayList<ArrayList<String>>();
 
     }
 
@@ -12,11 +12,12 @@ class DisplayResults {
 }
 
 class WordFrequency {
-+ calculateFrequency(ArrayList<String> wordsInFile)
+- {static} ArrayList<ArrayList<String>> wordsCount
++ calculateFrequency()
 }
 class ProcessFile {
-    private static ArrayList<String> wordsInList = new ArrayList<String>();
-    public ArrayList<String> read(String fileName)
+    - {static} ArrayList<String> wordsInList
+    - {static} String word;
 
     + read(String fileName)
     }

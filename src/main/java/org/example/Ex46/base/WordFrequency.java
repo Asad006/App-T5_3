@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class WordFrequency {
     private static ArrayList<ArrayList<String>> wordsCount = new ArrayList<ArrayList<String>>();
 
+
     public ArrayList<ArrayList<String>> calculateFrequency(ArrayList<String> wordsInFile) {
 
         for (int i = 0; i < wordsInFile.size(); i++) {

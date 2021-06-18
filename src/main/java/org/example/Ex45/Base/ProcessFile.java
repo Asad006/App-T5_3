@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class ProcessFile {
     private static ArrayList<String> wordsInList = new ArrayList<String>();
 
-    String word;
+    private static String word;
 
     public ArrayList<String> read(String fileName) {
 
