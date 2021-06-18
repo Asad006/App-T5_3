@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Solution45 {
+    - {static}  Scanner scanner
+    - {static} ArrayList<String> wordsInList
+
+    }
+class ProcessFile {
+    - {static} ArrayList<String> wordsInList
+    - {static} String word;
+
+    + read()
+    }
+class SaveResultsInFile {
+
+    +  save()
+    }
+class WordReplaceInText {
+        - {static} String newPhrases
+
+        +  replace()
+    }
+    Solution45 *-- ProcessFile
+    Solution45 *--- WordReplaceInText
+     Solution45 *--- SaveResultsInFile
+@enduml

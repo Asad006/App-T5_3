@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Solution41 {
+    - {static} ArrayList<String> dataList
+    }
+class ReadFile {
+
+    +  getFileDataInArray()
+    }
+class SortDataList {
+        + sort()
+        }
+class SaveInFile {
+
+          + save()
+          }
+
+
+ Solution41 *-- ReadFile
+ Solution41 *-- SortDataList
+ Solution41 *-- SaveInFile
+@enduml

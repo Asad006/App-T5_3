@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Solution42 {
 
-    public static ArrayList<ArrayList<String>> dataList = new ArrayList<>();
+    private static ArrayList<ArrayList<String>> dataList = new ArrayList<>();
 
     public static void main(String[] args) {
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class ReadFile {
 
-    public ArrayList<String> getfile(String fileName,ArrayList<String> dataList) {
+    public ArrayList<String> getFileDataInArray(String fileName, ArrayList<String> dataList) {
 
         try(Scanner scanner = new Scanner(Paths.get(fileName))){
             while (scanner.hasNext()){

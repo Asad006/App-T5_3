@@ -16,7 +16,7 @@ public class Solution41 {
         // read data from the file and place them in the memory in a arrayList.
         ReadFile readFile = new ReadFile();
 
-        dataList = readFile.getfile("client.txt", dataList);
+        dataList = readFile.getFileDataInArray("client.txt", dataList);
 
         // Sort the Array list
         SortDataList sortlist = new SortDataList();
